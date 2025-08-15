@@ -1,0 +1,16 @@
+{
+  "name": "PairCards.UI",
+  "rootNamespace": "PairCards.UI",
+  "references": [
+    "GUID:ce539095c3713114aa0c7fae355d372c"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

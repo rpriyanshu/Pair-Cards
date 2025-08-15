@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <PairCards.UI.MainUI style="flex-grow: 1; margin-top: 16px; margin-bottom: 16px;">
+        <ui:VisualElement name="header" style="flex-direction: row; align-items: center; justify-content: space-between;">
+            <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="main-menu" />
+            <ui:VisualElement class="row">
+                <ui:Label text="Ready" display-tooltip-when-elided="true" name="game-state" />
+                <ui:Label text="Unlimited" display-tooltip-when-elided="true" name="remaining-time" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:VisualElement class="row" style="justify-content: space-between;">
+                    <ui:VisualElement style="flex-direction: row;">
+                        <ui:Label text="Matches:" display-tooltip-when-elided="true" />
+                        <ui:Label text="123" display-tooltip-when-elided="true" name="match-count" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row;">
+                        <ui:Label text="Flips:" display-tooltip-when-elided="true" />
+                        <ui:Label text="123" display-tooltip-when-elided="true" name="flip-count" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="row" style="justify-content: space-between;">
+                    <ui:Label text="Combo +123" display-tooltip-when-elided="true" name="combo" />
+                    <ui:VisualElement style="flex-direction: row;">
+                        <ui:Label text="Score:" display-tooltip-when-elided="true" />
+                        <ui:Label text="123" display-tooltip-when-elided="true" name="score" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="body" style="flex-grow: 1; flex-wrap: wrap; flex-direction: row;" />
+        <ui:VisualElement name="game-complete-dialog" class="dialog">
+            <ui:VisualElement>
+                <ui:Label text="Congratulation!" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 32px;" />
+                <ui:Label text="You won the game!" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 16px;" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="main-menu" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="game-over-dialog" class="dialog">
+            <ui:VisualElement>
+                <ui:Label text="Game Over!" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 32px;" />
+                <ui:Label text="Good luck next time!" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 16px;" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="main-menu" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </PairCards.UI.MainUI>
+</ui:UXML>

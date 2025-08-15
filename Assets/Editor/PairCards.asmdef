@@ -1,0 +1,18 @@
+{
+  "name": "PairCards.Editor",
+  "rootNamespace": "PairCards.Editor",
+  "references": [
+    "GUID:ce539095c3713114aa0c7fae355d372c"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

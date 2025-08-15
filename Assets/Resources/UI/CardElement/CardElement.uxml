@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/CardElement/CardElement.uss?fileID=7433441132597879392&amp;guid=a65435a7d2886234583cb7cf0a279be3&amp;type=3#CardElement" />
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="front-face" class="face" />
+        <ui:VisualElement name="back-face" class="face" />
+    </ui:VisualElement>
+</ui:UXML>

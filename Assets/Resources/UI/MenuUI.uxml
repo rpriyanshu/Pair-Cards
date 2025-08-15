@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <PairCards.UI.MenuUI style="flex-grow: 1; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; justify-content: center; align-self: center; max-width: 480px; width: 100%;">
+        <ui:Label text="Pair Cards" display-tooltip-when-elided="true" style="font-size: 50%; -unity-text-align: middle-center;" />
+        <ui:VisualElement>
+            <ui:DropdownField label="Difficulty" name="difficulty" />
+            <ui:SliderInt picking-mode="Ignore" label="Row" high-value="6" low-value="2" name="row" />
+            <ui:SliderInt picking-mode="Ignore" label="Column" high-value="6" low-value="2" name="column" />
+            <ui:Slider picking-mode="Ignore" label="Memorization Time" high-value="5" name="memorization-time" />
+            <ui:Slider picking-mode="Ignore" label="Time Limit per Pair" high-value="10" name="time-limit-per-pair" />
+        </ui:VisualElement>
+        <ui:Button text="Start Game" display-tooltip-when-elided="true" name="start-game" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="quit" />
+    </PairCards.UI.MenuUI>
+</ui:UXML>
